@@ -1,0 +1,279 @@
+.carousel,
+.carousel-inner,
+.carousel-item > img {
+  height: 250px;
+}
+
+.carousel-item > img {
+  object-fit: cover;
+}
+
+.card {
+  margin: auto;
+  max-width: 300px;
+}
+
+footer {
+  font-weight: 400;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item > img {
+    height: 500px;
+  }
+}
+
+@font-face {
+  font-family: 'Kanit', sans-serif;
+  src: url(font/Kanit/Kanit-Light.ttf);
+}
+
+:root {
+  --color1: #ba6c39;
+  --color2: #f2e8dc;
+  --color3: #f7d9c9;
+  --color4: #E3E3E3;
+  --color5: #E8DBCF;
+
+  --menu1: #f7f3f0;
+  --menu2: #ecd3ce;
+  --menu3: #f8d8c8;
+}
+
+/*-----------------------------------content */
+
+.content {
+  width: 100%;
+  height: 90vh;
+  box-sizing: border-box;
+  /* border-bottom: 1px solid black; */
+}
+
+/*-----------------------------------content-1 */
+
+.content-1 {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-1 .ct-11 {
+  width: 50vw;
+  background-color: var(--color2);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-1 .ct-11 img{
+  width: 60%;
+}
+
+.content-1 .ct-11 .img-2 {
+  margin-top: -50px;
+  margin-right: -100px;
+}
+
+.content-1 .ct-12 h1{
+  width: 75vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:10vw;
+}
+
+.content-1 .ct-12 h2{
+  width: 65%;
+  text-align: center;
+  font-family: kanit;
+}
+
+
+
+/*-----------------------------------content-2 */
+
+.content-2 {
+  
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--menu1);
+  align-items: center;
+}
+.content-2 .ct-12 h1{
+  width: 75%;
+  text-align: center;
+  font-size:10vw;
+}
+
+.ct-21 p {
+  transform: rotate(-90deg);
+  color: var(--color1);
+}
+
+.ct-22 ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.ct-22 ul li{
+  margin: 5px;
+  padding: 5px 60px 5px 60px;
+}
+
+.ct-23 img {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.ct-24 p {
+  transform: rotate(90deg);
+  color: var(--color1);
+}
+
+.m1 {
+  background-color: var(--color2);
+  font-size:2vw;
+  border-radius: 25px;
+  margin: 5px;
+}
+.m2 {
+  background-color: var(--menu2);
+  font-size:2vw;
+  border-radius: 25px;
+  margin: 5px;
+}
+.m3 {
+  background-color: var(--menu3);
+  font-size:2vw;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+/*-----------------------------------content-3 */
+
+.content-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-3 h2 {
+  width: 30%;
+  text-align: center;
+  margin: 5%;
+}
+
+/*-----------------------------------content-4 */
+
+.content-4 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color4);
+  align-items: center;
+  color: white;
+}
+
+.content-4 .ct-12 h1{
+  width: 75vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:10vw;
+}
+
+/*-----------------------------------content-5 */
+
+.content-5 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--menu3);
+  align-items: center;
+  color: white;
+}
+
+.content-5 .ct-12 h1{
+  
+  width: 75vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:10vw;
+}
+
+/*-----------------------------------content-6 */
+
+.content-6 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--menu2);
+  align-items: center;
+  color: white;
+}
+
+.content-6 .ct-12 h1{
+  
+  width: 75vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:10vw;
+}
+
+/*-----------------------------------content-7 */
+
+.content-7 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color5);
+  align-items: center;
+  color: white;
+}
+
+.content-7 .ct-12 h1{
+  
+  width: 75vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:10vw;
+}
+
+/*-----------------------------------content-8 */
+
+.content-8 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+  color: black;
+}
+
+.content-8 .ct-12 h1{
+  
+  width: 40vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  font-size:4vw;
+}
+
+/*-----------------------------------Footer */
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
